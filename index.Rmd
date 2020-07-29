@@ -74,6 +74,14 @@ knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc20
 
 ---
 
+# <i class="fas fa-calculator"></i> Fancy statistics
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/tweets-retweet-prop-1.png")
+```
+
+---
+
 # Credits
 
 ## The original
