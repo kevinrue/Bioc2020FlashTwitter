@@ -52,3 +52,44 @@ bib <- ReadBib("references.bib")
 
 ---
 
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://www.pammarketingnut.com/wp-content/uploads/iStock_000019666790XSmall.png")
+```
+
+---
+
+# <i class="far fa-clock"></i> Timeline
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/tweets-by-day-hour-1.png")
+```
+
+---
+
+# <i class="fas fa-medal"></i> Top tweeters
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/tweets-top-users-1.png")
+```
+
+---
+
+# Credits
+
+## The original
+
+<i class="fab fa-github"></i> [lazappi/twitter-stats](https://github.com/lazappi/twitter-stats)
+
+* Fetching tweets, wrangling data, and building R markdown reports.
+
+<i class="fab fa-github"></i> [lazappi/clamour](https://github.com/lazappi/clamour)
+
+* Helper package to set things up.
+
+## The extension
+
+<i class="fab fa-github"></i> [kevinrue/twitter-stats](https://github.com/kevinrue/twitter-stats)
+
+* Outsource to GitHub Action: compilation and deployment to [GitHub Pages](https://kevinrue.github.io/twitter-stats/index.html)
+
+* Automation as a CRON job
