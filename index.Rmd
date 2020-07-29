@@ -1,0 +1,54 @@
+---
+title: 'Automated <i class="fab fa-twitter"></i> coverage using rtweet and <i class="fab fa-github"></i> Actions'
+subtitle: "Bioconductor 2020 - Flash talk"
+author: "[Kevin Rue-Albrecht](https://kevinrue.github.io)"
+institute: "University of Oxford"
+date: "2020-07-31 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, rladies-fonts, "my-theme.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+layout: true
+
+<div class="my-header"><img src="img/BioC2020.png" alt="Bioconductor logo" align="right" height="90%"></div>
+
+<div class="my-footer"><span>
+Bioconductor 2020
+&emsp;&emsp;&emsp;&emsp;
+Reproducible environments for integrated computational workflows
+</span></div>
+
+```{r setup, include=FALSE}
+stopifnot(require(htmltools))
+stopifnot(require(RefManageR))
+stopifnot(require(knitr))
+```
+
+```{r htmltools, include=FALSE}
+stopifnot(requireNamespace("htmltools"))
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+options(htmltools.dir.version = FALSE)
+BibOptions(
+  check.entries = FALSE,
+  bib.style = "authoryear",
+  cite.style = "authoryear",
+  max.names = 2,
+  style = "markdown",
+  hyperlink = "to.doc",
+  dashed = TRUE)
+bib <- ReadBib("references.bib")
+```
+
+---
+
