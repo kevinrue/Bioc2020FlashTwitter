@@ -22,8 +22,8 @@ layout: true
 
 <div class="my-footer"><span>
 Bioconductor 2020
-&emsp;&emsp;&emsp;&emsp;
-Reproducible environments for integrated computational workflows
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+Automated <i class="fab fa-twitter"></i> coverage using rtweet and <i class="fab fa-github"></i> Actions
 </span></div>
 
 ```{r setup, include=FALSE}
