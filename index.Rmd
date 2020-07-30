@@ -106,6 +106,36 @@ Clusters... Positive feedback loops... Promoters... Enhancers... Accessibility..
 
 ---
 
+# <i class="far fa-comment-dots"></i> Word cloud
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/count-words-1.png")
+```
+
+---
+
+# <i class="fas fa-quote-left"></i> Topic <i class="fas fa-quote-right"></i> modelling
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/topics-words-1.png")
+```
+
+???
+
+Latent Dirichlet Allocation
+
+---
+
+# <i class="fas fa-project-diagram"></i> Bigram graph
+
+Words that were tweeted next to each other at least 3 times.
+
+```{r, echo=FALSE, out.height='500px', fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/bigram-graph-1.png")
+```
+
+---
+
 # Credits
 
 ## The original
