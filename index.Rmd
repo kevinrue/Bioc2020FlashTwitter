@@ -84,9 +84,21 @@ knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc20
 
 # <i class="fas fa-project-diagram"></i> GRN: 'Gossip' Regulatory networks
 
-```{r, echo=FALSE, out.height='500px', fig.align='center'}
+.pull-left[
+## Users replying to each other
+
+```{r, echo=FALSE, fig.align='center'}
 knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/reply-network-1.png")
 ```
+]
+
+.pull-right[
+## Users mentioning each other
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("https://kevinrue.github.io/twitter-stats/figures/Bioc2020/mentions-network-1.png")
+```
+]
 
 ---
 
